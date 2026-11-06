@@ -2,7 +2,7 @@
 É um script simples em PHP onde há um banco de dados (MySQL) que recebe dados e áudio para treinar o seu inglês com as frases mais usadas em conversação para um dev, seja ele em uma entrevista ou em um ambiente de trabalho.
 Aviso: O aluno terá que ter algum microfone funcionando no computador OU no microfone do celular. 
 
-![Treinamento de inglês para programadores](https://github.com/herbetdesign/treinamentoInglesDevs/blob/main/site3.jpg)
+![Treinamento de inglês para programadores](https://raw.githubusercontent.com/herbetdesign/Software-Engineering-and-Development/refs/heads/main/treinamento-ingles-devs/site3.jpg)
 
 Visite o site: https://inglesparaprogramadores.ct.ws
 
