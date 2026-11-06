@@ -1,0 +1,168 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif; /* Fonte moderna */
+    background: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2c3e50;
+}
+
+#quiz-container {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+#question {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+button.correct {
+    background: #4CAF50;
+    color: white;
+}
+
+button.incorrect {
+    background: #f44336;
+    color: white;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.ads-banner {
+    padding: 10px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ads-banner iframe {
+    display: block;
+    margin: 0 auto;
+    max-width: 728px;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.hidden {
+    display: none;
+}
+
+.audio-buttons {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+}
+
+#category-select {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#start-pronunciation {
+    background: #2196F3;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Adicione ao final do arquivo */
+#start-pronunciation {
+    background: #2196F3;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s;
+    font-weight: bold; /* Negrito [[1]] */
+    font-size: 1.4em; /* Tamanho maior */
+}
+
+#start-pronunciation:disabled {
+    background: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Adicione ao style.css */
+#accuracy-select {
+    width: 100%; /* Reduz a largura para permitir centralização [[4]] */
+    margin: 20px auto; /* Centraliza horizontalmente [[1]] */
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    background: #f0f0f0;
+    font-weight: bold; /* Texto em negrito [[1]] */
+    font-size: 1.1em; /* Tamanho maior */
+}
+
+/* Adicione ao style.css */
+#phrase {
+    font-weight: bold; /* Negrito [[1]] */
+    font-size: 1.4em; /* Tamanho maior */
+    color: #2c3e50; /* Cor destacada */
+    margin-bottom: 20px;
+    text-align: center; /* Centraliza o texto da frase [[4]] */
+}
+
+#translation {
+    font-weight: bold; /* Negrito [[1]] */
+    font-size: 1.4em; /* Tamanho maior */
+    color: #2b749e; /* Cor destacada */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center; /* Centraliza o texto da frase [[4]] */
+}
